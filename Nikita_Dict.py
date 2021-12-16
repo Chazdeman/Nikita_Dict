@@ -1,7 +1,7 @@
 sonastik={} #Создал словарь с помощью литерала
 riigid=linnad=[]
 file=open("File.txt", "r")
-file=open("Pop.txt", "r")
+
 for line in file:
     k, v=line.strip().split(" - ")
     sonastik[k.strip()] = v.strip()
